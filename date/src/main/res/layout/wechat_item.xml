@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/wechativ"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/wechattv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/wechativ"
+            android:layout_toRightOf="@id/wechativ"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wechattv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wechattv1"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/wechativ" />
+
+        <TextView
+            android:id="@+id/wechattv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wechattv1"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

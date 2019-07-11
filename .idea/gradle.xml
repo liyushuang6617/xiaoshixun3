@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dao" />
+            <option value="$PROJECT_DIR$/date" />
+            <option value="$PROJECT_DIR$/gouwuche1" />
+            <option value="$PROJECT_DIR$/gouwuche2" />
+            <option value="$PROJECT_DIR$/news" />
+            <option value="$PROJECT_DIR$/num2" />
+            <option value="$PROJECT_DIR$/num3" />
+            <option value="$PROJECT_DIR$/work" />
+            <option value="$PROJECT_DIR$/zuoye" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
